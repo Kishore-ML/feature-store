@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .header{
     width:100%;
     height:4rem;
@@ -29,6 +33,11 @@
     padding-left: 2rem;
 }
 
+.content p{
+    width:93%;
+    white-space:inherit;
+}
+
 .content h1{
      color: #474655;
      font-family:Open Sans, sans-serif;
@@ -41,7 +50,7 @@
 
 .content-footer{
     display: flex;
-    margin-top: 2rem;
+    margin-top: 6rem;
     margin-bottom: 2rem;
     padding-left: 1rem;
     padding-right: 3rem;
@@ -69,6 +78,27 @@
     color:#005F9E ;
 }
 
+.content-footer-left svg{
+    cursor: pointer;
+}
+
+.content-footer-right input{
+    width:15rem;
+    height:1.2rem;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    font-family:Open Sans, sans-serif;
+    font-size: medium;
+    border-radius: 5px;
+    border: solid grey 1px;
+} 
+
+.content-footer-right input:focus{
+    outline: none;
+    border-bottom:solid #005F9E 1px;
+}
+
+
 .navbar{
     width: 30rem;
     height:100%;
@@ -80,6 +110,15 @@
 .navbar p{
     margin: 0;
     font-family:Open Sans, sans-serif;
+    color: #5f7e93;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width:90%;
+}
+
+.navbar p a {
+    text-decoration: none;
     color: #5f7e93;
 }
 

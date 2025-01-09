@@ -1,4 +1,5 @@
 import React from "react";
+import data from '../data/features.json';
 
 class NavBar extends React.Component {
   render() {
@@ -6,26 +7,16 @@ class NavBar extends React.Component {
       <div class="navbar">
         <h3>Features</h3>
         <ul>
-          <li>
-            <div class="list-item">
-                <p>Feature 1</p>
-            </div>
-          </li>
-          <li>
-            <div class="list-item">
-                <p>Feature 2</p>
-            </div>
-          </li>
-          <li>
-            <div class="list-item">
-                <p>Feature 3</p>
-            </div>
-          </li>
-          <li>
-            <div class="list-item">
-                <p>Feature 4</p>
-            </div>
-          </li>
+          {data.content.map((feature) => {
+            return (
+              <li>
+                <div class="list-item">
+                    <p><a href={`#${feature.id}`}>{feature.heading}</a></p>
+                </div>
+              </li>
+            )
+          }
+          )}
         </ul>
       </div>
     );
