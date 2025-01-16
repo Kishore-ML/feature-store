@@ -36,6 +36,17 @@ html {
 .content p{
     width:93%;
     white-space:inherit;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.content p,li{
+    font-size: 0.9rem;
+}
+
+.content ul{
+    margin-top: 2rem;
 }
 
 .content h1{
@@ -76,10 +87,14 @@ html {
     margin-right: auto;
     display: flex;
     color:#005F9E ;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .content-footer-left svg{
     cursor: pointer;
+    margin-right: 0.4rem;
 }
 
 .content-footer-right input{
@@ -100,11 +115,12 @@ html {
 
 
 .navbar{
-    width: 30rem;
+    width: 33rem;
     height:100%;
     box-shadow: 0px 0px 11px rgb(211, 211, 211);
     padding-top: 1rem;
     padding-left: 1rem;
+    border-radius: 10px;
 }
 
 .navbar p{
@@ -137,7 +153,7 @@ html {
     margin-top: 1.5rem;
     list-style: none;
     padding: 0;
-    padding-left: 1.3rem;
+    padding-left: 0.4rem;
 }
 
 .navbar ul li{

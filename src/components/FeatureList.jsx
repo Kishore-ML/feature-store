@@ -6,23 +6,18 @@ class FeatureList extends react.Component {
   constructor(props) {
     super(props);
     this.state = {
-    content: data.content,
+    features: data.features,
     }
 }
   render() {
     return (
       <div class="content-container">
-          {this.state.content.map((content) => {
+          {this.state.features && this.state.features.length>0 &&
+          (this.state.features.map((feature) => {
               return (
-                  <Content 
-                    id={content.id}
-                    heading={content.heading} 
-                    description={content.description} 
-                    image={content.image} 
-                    likes={content.likes}
-                  />
+                  <Content feature={feature} key={feature.id} />
                 )
-          })}
+          }))}
       </div>
     );  
   }

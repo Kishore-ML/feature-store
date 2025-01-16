@@ -8,7 +8,7 @@ class MainLayout extends react.Component {
     return (
       <div>
         <Header/>
-        <div class="main-container">
+        <div className="main-container">
             <NavBar/>  
             <FeatureList/>
         </div>

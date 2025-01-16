@@ -1,9 +1,8 @@
 import React from "react";
-import logo from "../../src/assests/TrimbleConnectLogo.svg";
 const Header = () => {
     return (
-      <div class="header">
-        <img src={logo} alt="Trimble Connect" />
+      <div className="header">
+        <img src={`${process.env.PUBLIC_URL}/assets/images/TrimbleConnectLogo.svg`} alt="Trimble Connect" />
       </div>
     );
   };

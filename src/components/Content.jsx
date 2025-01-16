@@ -1,11 +1,10 @@
 import React from 'react';
-import contentImage from '../assests/Sample.png';
 
 class Content extends React.Component {
     constructor(props) {
         super(props);
         this.state ={
-            likes: this.props.likes,
+            likes: this.props.feature.likes,
             isLiked: false
         }
     }
@@ -17,12 +16,37 @@ class Content extends React.Component {
     }
   render() {
     return (
-    <section id={this.props.id}>
+    <section id={this.props.feature.id}>
       <div class="content">
-        <h1>{this.props.heading}</h1>
-        <p>{this.props.description}</p>
-        <img src={contentImage} alt="placeholder" />
+        <h1>{this.props.feature.heading}</h1>
 
+        {this.props.feature.contents && this.props.feature.contents.length>0 &&
+        (
+            this.props.feature.contents.map((content) => {
+                return (
+                    <>
+                        <p>{content.description}</p>
+                        {content.image && 
+                         <img src={`${process.env.PUBLIC_URL}/assets/images/${content.image}`} alt={content.image} />
+                        }
+                        
+                        {content.points && content.points.length>0 &&
+                        (
+                            <ul>
+                                {content.points.map((point) => {
+                                    return (
+                                        <li>{point}</li>
+                                    )
+                                })}
+                            </ul>
+                        )}
+                    </>
+                )
+            })
+        )}
+        {this.props.feature.endDescription &&
+            <p>{this.props.feature.endDescription}</p>
+        }
         <div class="content-footer">
             <div class="content-footer-left">
                 {this.state.isLiked ? 

@@ -1,32 +1,98 @@
 {
-    "content":[
+    "features":[
         {
             "id":"id1",
             "heading": "Heading of the Feature 1",
-            "description": "Welcome to the Trimble Connect for Browser's 3D Viewer User Guide. In this guide you will find useful information on using the 3D Viewer in Trimble Connect. You can perform several different tasks while working in the 3D Viewer. Below is a reference guide which shows the icons used in the 3D View and which page you can go to learn more about it.",
-            "image": "../assests/Sample.png",
-            "likes": 12
+            "likes": 12,
+            "contents":[
+                {
+                    "description":"Welcome to the Trimble Connect for Browser's 3D Viewer User Guide. In this guide you will find useful information on using the 3D Viewer in Trimble Connect. You can perform several different tasks while working in the 3D Viewer. Below is a reference guide which shows the icons used in the 3D View and which page you can go to learn more about it.",
+                    "image": "Sample.png",
+                    "points":[
+                        "First point",
+                        "second point"
+                    ]
+                },
+                {
+                    "description":"Welcome to the Trimble Connect for Browser's 3D Viewer User Guide. In this guide you will find useful information on using the 3D Viewer in Trimble Connect. You can perform several different tasks while working in the 3D Viewer. Below is a reference guide which shows the icons used in the 3D View and which page you can go to learn more about it.",
+                    "image": "Sample.png",
+                    "points":[
+                        "First point",
+                        "second point"
+                    ]
+                }
+            ],
+            "endDescription":"This is an end description of the feature 1"
         },
         {
             "id":"id2",
             "heading": "Heading of the Feature 2 ",
-            "description": "Welcome to the Trimble Connect for Browser's 3D Viewer User Guide. In this guide you will find useful information on using the 3D Viewer in Trimble Connect. You can perform several different tasks while working in the 3D Viewer. Below is a reference guide which shows the icons used in the 3D View and which page you can go to learn more about it.",
-            "image": "../assests/Sample.png",
-            "likes": 12
+            "likes": 12,
+            "contents":[
+                {
+                    "description":"Welcome to the Trimble Connect for Browser's 3D Viewer User Guide. In this guide you will find useful information on using the 3D Viewer in Trimble Connect. You can perform several different tasks while working in the 3D Viewer. Below is a reference guide which shows the icons used in the 3D View and which page you can go to learn more about it.",
+                    "image": "Sample.png",
+                    "points":[
+                        "First point",
+                        "second point"
+                    ]
+                },
+                {
+                    "description":"Welcome to the Trimble Connect for Browser's 3D Viewer User Guide. In this guide you will find useful information on using the 3D Viewer in Trimble Connect. You can perform several different tasks while working in the 3D Viewer. Below is a reference guide which shows the icons used in the 3D View and which page you can go to learn more about it.",
+                    "image": "Sample.png",
+                    "points":[
+                        "First point",
+                        "second point"
+                    ]
+                }
+            ]
         },
         {
             "id":"id3",
             "heading": "Heading of the Feature 3",
-            "description": "Welcome to the Trimble Connect for Browser's 3D Viewer User Guide. In this guide you will find useful information on using the 3D Viewer in Trimble Connect. You can perform several different tasks while working in the 3D Viewer. Below is a reference guide which shows the icons used in the 3D View and which page you can go to learn more about it.",
-            "image": "../assests/Sample.png",
-            "likes": 12
+            "likes": 12,
+            "contents":[
+                {
+                    "description":"Welcome to the Trimble Connect for Browser's 3D Viewer User Guide. In this guide you will find useful information on using the 3D Viewer in Trimble Connect. You can perform several different tasks while working in the 3D Viewer. Below is a reference guide which shows the icons used in the 3D View and which page you can go to learn more about it.",
+                    "image": "Sample.png",
+                    "points":[
+                        "First point",
+                        "second point"
+                    ]
+                },
+                {
+                    "description":"Welcome to the Trimble Connect for Browser's 3D Viewer User Guide. In this guide you will find useful information on using the 3D Viewer in Trimble Connect. You can perform several different tasks while working in the 3D Viewer. Below is a reference guide which shows the icons used in the 3D View and which page you can go to learn more about it.",
+                    "image": "Sample.png",
+                    "points":[
+                        "First point",
+                        "second point"
+                    ]
+                }
+            ],
+            "endDescription":"This is an end description of the feature 3"
       },
       {
         "id":"id4",
         "heading": "Heading of the Feature 4",
-        "description": "Welcome to the Trimble Connect for Browser's 3D Viewer User Guide. In this guide you will find useful information on using the 3D Viewer in Trimble Connect. You can perform several different tasks while working in the 3D Viewer. Below is a reference guide which shows the icons used in the 3D View and which page you can go to learn more about it.",
-        "image": "../assests/Sample.png",
-        "likes": 12
+        "likes": 12,
+        "contents":[
+            {
+                "description":"Welcome to the Trimble Connect for Browser's 3D Viewer User Guide. In this guide you will find useful information on using the 3D Viewer in Trimble Connect. You can perform several different tasks while working in the 3D Viewer. Below is a reference guide which shows the icons used in the 3D View and which page you can go to learn more about it.",
+                "image": "Sample.png",
+                "points":[
+                    "First point",
+                    "second point"
+                ]
+            },
+            {
+                "description":"Welcome to the Trimble Connect for Browser's 3D Viewer User Guide. In this guide you will find useful information on using the 3D Viewer in Trimble Connect. You can perform several different tasks while working in the 3D Viewer. Below is a reference guide which shows the icons used in the 3D View and which page you can go to learn more about it.",
+                "image": "Sample.png",
+                "points":[
+                    "First point",
+                    "second point"
+                ]
+            }
+        ]
       }
     ]
 }
